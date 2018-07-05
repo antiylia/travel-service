@@ -29,10 +29,10 @@ export const data = {
         train: {cost: 30, days: 4}
     },
     meals: {
-        bedAndbreakfast: {cost: 20},
-        fullBoard: {cost: 100},
-        allInclusive: {cost: 200},
-        onlyBed: {cost: 0}
+        'bed and breakfast': {cost: 20},
+        'full board': {cost: 100},
+        'all inclusive': {cost: 200},
+        'only bed': {cost: 0}
     },
     startDuration: 8,
         startCost: 300
@@ -46,10 +46,10 @@ export const data = {
                 train: {cost: 50, days: 2}
             },
             meals: {
-                bedAndbreakfast: {cost: 10},
-                fullBoard: {cost: 90},
-                allInclusive: {cost: 150},
-                onlyBed: {cost: 0}
+                'bed and breakfast': {cost: 20},
+                'full board': {cost: 100},
+                'all inclusive': {cost: 200},
+                'only bed': {cost: 0}
             },
             startDuration: 10,
             startCost: 250
@@ -64,10 +64,10 @@ export const data = {
                 train: {cost: 50, days: 2}
             },
             meals: {
-                bedAndbreakfast: {cost: 20},
-                fullBoard: {cost: 100},
-                allInclusive: {cost: 180},
-                onlyBed: {cost: 0}
+                'bed and breakfast': {cost: 20},
+                'full board': {cost: 100},
+                'all inclusive': {cost: 200},
+                'only bed': {cost: 0}
             },
             startDuration: 7,
             startCost: 400
@@ -84,10 +84,10 @@ export const data = {
                 train: {cost: 20, days: 2}
             },
             meals: {
-                bedAndbreakfast: {cost: 20},
-                fullBoard: {cost: 100},
-                allInclusive: {cost: 200},
-                onlyBed: {cost: 0}
+                'bed and breakfast': {cost: 20},
+                'full board': {cost: 100},
+                'all inclusive': {cost: 200},
+                'only bed': {cost: 0}
             },
             startDuration: 3,
             startCost: 50
@@ -100,10 +100,10 @@ export const data = {
                 plane: {cost: 300, days: 1}
             },
             meals: {
-                bedAndbreakfast: {cost: 20},
-                fullBoard: {cost: 100},
-                allInclusive: {cost: 200},
-                onlyBed: {cost: 0}
+                'bed and breakfast': {cost: 20},
+                'full board': {cost: 100},
+                'all inclusive': {cost: 200},
+                'only bed': {cost: 0}
             },
             startDuration: 12,
             startCost: 100
@@ -118,10 +118,10 @@ export const data = {
                 train: {cost: 50, days: 2}
             },
             meals: {
-                bedAndbreakfast: {cost: 20},
-                fullBoard: {cost: 100},
-                allInclusive: {cost: 200},
-                onlyBed: {cost: 0}
+                'bed and breakfast': {cost: 20},
+                'full board': {cost: 100},
+                'all inclusive': {cost: 200},
+                'only bed': {cost: 0}
             },
             startDuration: 10,
             startCost: 250
@@ -138,10 +138,7 @@ export const data = {
                 train: {cost: 100, days: 2}
             },
             meals: {
-                bedAndbreakfast: {cost: 20},
-                fullBoard: {cost: 100},
-                allInclusive: {cost: 200},
-                onlyBed: {cost: 0}
+                'all inclusive': {cost: 200}
             },
             startDuration: 12,
             startCost: 130
@@ -155,10 +152,8 @@ export const data = {
                 train: {cost: 150, days: 2}
             },
             meals: {
-                bedAndbreakfast: {cost: 20},
-                fullBoard: {cost: 100},
-                allInclusive: {cost: 200},
-                onlyBed: {cost: 0}
+                'bed and breakfast': {cost: 20},
+                'full board': {cost: 100}
             },
             startDuration: 10,
             startCost: 290
@@ -167,18 +162,14 @@ export const data = {
             country: 'Russia',
             description: 'Klyuchevskaya Sopka is one of the most active volcanoes not only in Kamchatka',
             transportType: {
-                plane: {cost: 100, days: 1},
-                bus: {cost: 70, days: 2},
-                train: {cost: 50, days: 2}
+                plane: {cost: 200, days: 1},
+                train: {cost: 150, days: 2}
             },
             meals: {
-                bedAndbreakfast: {cost: 20},
-                fullBoard: {cost: 100},
-                allInclusive: {cost: 200},
-                onlyBed: {cost: 0}
+                'only bed': {cost: 0}
             },
             startDuration: 10,
-            startCost: 250
+            startCost: 50
         }
     ],
     'beach rest': [
@@ -191,10 +182,10 @@ export const data = {
                 train: {cost: 50, days: 2}
             },
             meals: {
-                bedAndbreakfast: {cost: 20},
-                fullBoard: {cost: 100},
-                allInclusive: {cost: 200},
-                onlyBed: {cost: 0}
+                'bed and breakfast': {cost: 20},
+                'full board': {cost: 100},
+                'all inclusive': {cost: 200},
+                'only bed': {cost: 0}
             },
             startDuration: 10,
             startCost: 250
@@ -211,10 +202,8 @@ export const data = {
                 train: {cost: 50, days: 2}
             },
             meals: {
-                bedAndbreakfast: {cost: 20},
-                fullBoard: {cost: 100},
-                allInclusive: {cost: 200},
-                onlyBed: {cost: 0}
+                'bed and breakfast': {cost: 20},
+                'only bed': {cost: 0}
             },
             startDuration: 14,
             startCost: 90
